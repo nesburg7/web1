@@ -1,0 +1,85 @@
+
+<!doctype html>  <!-- 이 웹페이지가 html(HyperText Markup Language)로 만들어졌다 -->
+<html>           <!-- html -> head + body -->
+
+  <head>
+
+
+    <!-- 웹페이지 타이틀. 브라우저탭에 뜨는 페이지제목 -->
+
+    <title>WEB1 - html 실습하기</title>
+    <meta charset="utf-8">
+    <!-- utf-8로 만들어진 웹페이지는 utf-8로 열어야 함을 표시하는 구문
+         웹페이지가 저장된 문자 표현 방식과
+         웹브라우저가 웹페이지를 해석하는 방식이 일치하지 않으면 문자 깨짐
+         utf-8 : Unicode Transformation Format - 8bit -->
+
+  </head>
+
+  <body>
+
+    <!-- 링크 추가 -->
+    <h1><a href="index.html">WEB</a><h1>
+
+    <!-- unordered list TAG : 점마킹됨 -->
+    <ul>
+      <!--- list TAG -->
+      <li>1. HTML<br></li>
+      <li>2. CSS<br></li>
+      <li>3. JavaScript<br></li>
+      <br>  <!--- 개행TAG -->
+    </ul>
+
+    <!-- ordered list TAG : 자동 순번 prefix -->
+    <!-- 링크 추가 -->
+    <ol>
+      <li><a href="2.html">HTML</a><br></li>
+      <li><a href="2.html">CSS</a><br></li>
+      <li><a href="2.html">JavaScript</a><br></li>
+    </ol>
+
+
+    <h1>HTML</h1>
+
+    <!-- paragraph TAG-->
+    <p>
+      <!-- a:anchor , href : HyperText Reference
+          target : 링크 클릭 시 새 창으로 오픈
+          title : 이 링크에 대한 툴팁(말풍선)       -->
+      <a href = "https://www.w3.org/TR/html5/"
+      target="_blank"
+      title="html5 specification">
+      Hypertext Markup Language (HTML)</a> is the standard markup language for
+      <!-- bold TAG-->
+      <strong>creating <u>web</u> pages</strong>
+      and web applications.Web browsers receive HTML documents from a web server
+      or from local storage and render them into multimedia web pages.
+      HTML describes the structure of a web page semantically and originally
+      included cues for the appearance of the document.</p>
+      <!-- image TAG and src ATT-->
+      <!-- HyperText Reference in a image ) -->
+      <a href="index.html"><img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png">
+      <!-- width ATT-->
+      <img src="tania-shevereva-241478-unsplash.jpg" width="50%">
+
+      <!-- style ATT-->
+      <p style="margin-top:45px;">HTML elements are the building blocks of
+      HTML pages. With HTML constructs, images and other objects,
+      such as interactive forms, may be embedded into the rendered page.
+      It provides a means to create structured documents by denoting structural
+      semantics for text such as headings, paragraphs, lists, links, quotes
+      and other items. HTML elements are delineated by tags, written using
+      angle brackets. </p>
+
+    <!-- header TAG -->
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+
+
+  </body>
+
+</html>
